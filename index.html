@@ -4,29 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>El Cafecito de Jhostyn</title>
-
-  <!-- SEO -->
+  <title>Jhostyn Gourmet</title>
   <meta name="description"
-    content="El Cafecito de Jhostyn - Café fresco, postres irresistibles y promociones exclusivas. Reserva tu mesa en línea y disfruta de nuestra carta digital.">
+    content="Jhostyn Gourmet - Café fresco, postres irresistibles y promociones exclusivas. Reserva tu mesa en línea y disfruta de nuestra carta digital.">
 
-  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Iconos -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-  <!-- CSS propio -->
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <!-- Navbar -->
+
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-sm">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center fw-bold" href="#hero">
-        <img src="img/image.png" alt="Logo Cafetería" width="40" class="me-2"> Jhostyn Gourmet
+        <img src="img/image.png" alt="Logo Cafetería" height="45 px" class="me-2"> Jhostyn Gourmet
       </a>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu"
         aria-expanded="false" aria-label="Abrir menú de navegación">
@@ -38,39 +35,40 @@
           <li class="nav-item"><a class="nav-link" href="#carta">Carta Digital</a></li>
           <li class="nav-item"><a class="nav-link" href="#menu-popular">Menú</a></li>
           <li class="nav-item"><a class="nav-link" href="#contacto">Reservas en Línea</a></li>
+          <li class="nav-item"><a class="nav-link" href="#horarios">Horario de Atención</a></li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- Hero -->
   <header id="hero"
     class="hero d-flex flex-column justify-content-center align-items-center text-center text-white vh-100 bg-dark">
     <h1 class="display-4 fw-bold">El sabor que despierta tus sentidos</h1>
     <p class="lead">Café fresco, postres irresistibles y un ambiente único</p>
     <a href="#contacto" class="btn btn-warning btn-lg mt-3 shadow">Reserva tu mesa en línea</a>
   </header>
-
-  <!-- Promociones -->
   <section id="promos" class="container py-5">
-    <h2 class="text-center fw-bold mb-4">Promociones Exclusivas</h2>
+    <h2 class="text-center fw-bold mb-4">Promociones Exclusivas por el mes de septiembtre</h2>
     <p class="text-center text-muted mb-5">Descubre nuestras ofertas especiales pensadas para ti.</p>
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card h-100 shadow-sm border-0">
           <img src="img/capuchino.png" class="card-img-top rounded" alt="Promoción 2x1 en Cappuccino">
           <div class="card-body text-center">
-            <h5 class="fw-bold">2x1 en Cappuccino</h5>
-            <p>Disfruta cada martes con un amigo.</p>
+            <h5 class="fw-bold">Noche Italiana</h5>
+            <p>Pasta alla Ruota + Copa de vino al 20%.</p>
+            <p>Disponible viernes y sábado en la noche.</p>
+
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card h-100 shadow-sm border-0">
-          <img src="img/desayuno.png" class="card-img-top rounded" alt="Desayuno Especial">
+          <img src="img/Gemini_Generated_Image_c7bsi2c7bsi2c7bs.png" class="card-img-top rounded"
+            alt="Desayuno Especial">
           <div class="card-body text-center">
-            <h5 class="fw-bold">Desayuno Especial</h5>
-            <p>Café + jugo + croissant a precio único.</p>
+            <h5 class="fw-bold">Brunch de Domingo.</h5>
+            <p>Combo: Café + Croissant + Jugo Natural a $12.000.</p>
+            <p>Exclusivo de 9:00 a.m. a 12:00 p.m.</p>
           </div>
         </div>
       </div>
@@ -78,34 +76,75 @@
         <div class="card h-100 shadow-sm border-0">
           <img src="img/postre.png" class="card-img-top rounded" alt="Postre Gratis">
           <div class="card-body text-center">
-            <h5 class="fw-bold">Postre Gratis</h5>
-            <p>Por cada plato fuerte en la cena.</p>
+            <h5 class="fw-bold">Postre del Mes: Pie de Mora</h5>
+            <p>15% de descuento en el Pie de Mora artesanal.</p>
+            <p>Solo en septiembre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="carta" class="container py-5">
+    <h2 class="text-center fw-bold mb-4">Nuestra Carta Digital</h2>
+    <p class="text-center text-muted mb-5">Descubre nuestros platos más pedidos con su precio.</p>
+
+    <div class="row g-4">
+      <!-- Plato 1 -->
+      <div class="col-md-3 col-6">
+        <div class="plato">
+          <img src="img/hamburguesa.png" alt="Hamburguesa" class="img-fluid rounded">
+          <div class="overlay">
+            <h5>Hamburguesa Clásica</h5>
+            <p>Pan brioche, carne de res 200g, cheddar, tocineta y salsa especial,papas fritas crujientes.</p>
+            <span>$23.000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plato 2 -->
+      <div class="col-md-3 col-6">
+        <div class="plato">
+          <img src="img/tiramisu.jpg" alt="Tiramisú" class="img-fluid rounded">
+          <div class="overlay">
+            <h5>Tiramisú Italiano</h5>
+            <p>Postre cremoso con café espresso y cacao.</p>
+            <span>$12.000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plato 3 -->
+      <div class="col-md-3 col-6">
+        <div class="plato">
+          <img src="img/pastel.png" alt="Cheesecake" class="img-fluid rounded">
+          <div class="overlay">
+            <h5>Cheesecake de Fresa</h5>
+            <p>Base crocante y crema suave con fresas frescas.</p>
+            <span>$10.000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plato 4 -->
+      <div class="col-md-3 col-6">
+        <div class="plato">
+          <img src="img/ensalada.jpeg" alt="Ensalada César" class="img-fluid rounded">
+          <div class="overlay">
+            <h5>Ensalada César</h5>
+            <p>Lechuga fresca, crutones, queso parmesano.</p>
+            <span>$11.000</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Carta Digital -->
-  <section id="carta" class="container py-5">
-    <h2 class="text-center fw-bold mb-4">Nuestra Carta Digital</h2>
-    <p class="text-center text-muted mb-5">Explora visualmente algunos de nuestros platos más pedidos.</p>
-    <div class="row g-3">
-      <div class="col-md-3 col-6"><img src="img/hamburguesa.png" alt="Plato 1" class="img-fluid rounded shadow-sm">
-      </div>
-      <div class="col-md-3 col-6"><img src="img/tiramisu.jpg" alt="Plato 2" class="img-fluid rounded shadow-sm"></div>
-      <div class="col-md-3 col-6"><img src="img/pastel.png" alt="Plato 3" class="img-fluid rounded shadow-sm"></div>
-      <div class="col-md-3 col-6"><img src="img/ensalada.jpeg" alt="Plato 4" class="img-fluid rounded shadow-sm"></div>
-    </div>
-  </section>
-
-  <!-- Menú -->
   <section id="menu-popular" class="bg-light py-5">
     <div class="container">
       <h2 class="text-center fw-bold mb-4">Menú Popular</h2>
       <p class="text-center text-muted mb-5">Deléitate con nuestra selección más pedida.</p>
       <div class="row g-4">
-        <!-- Bebidas -->
+
         <div class="col-md-4">
           <div class="pricing-card text-center p-4 shadow-sm rounded bg-white h-100">
             <h5>Cappuccino</h5>
@@ -122,18 +161,19 @@
         </div>
         <div class="col-md-4">
           <div class="pricing-card text-center p-4 shadow-sm rounded bg-white h-100">
-            <h5>Chocolate Caliente</h5>
-            <p class="text-muted">Espeso, con crema batida</p>
-            <h3 class="fw-bold text-warning">$7.500</h3>
+            <h5>Affogato al Caffè</h5>
+            <p class="text-muted">Helado de vainilla bañado con un shot de espresso recién hecho.</p>
+            <h3 class="fw-bold text-warning">$10.000</h3>
           </div>
         </div>
 
-        <!-- Comidas -->
+
         <div class="col-md-4">
           <div class="pricing-card text-center p-4 shadow-sm rounded bg-white h-100">
-            <h5>Sandwich Club</h5>
-            <p class="text-muted">Pollo, jamón, queso y vegetales</p>
-            <h3 class="fw-bold text-warning">$15.000</h3>
+            <h5> Pasta alla Ruota</h5>
+            <p class="text-muted">Pasta cremosa servida dentro de una rueda de queso parmesano, con mantequilla y
+              especias frescas./p>
+            <h3 class="fw-bold text-warning">$20.000</h3>
           </div>
         </div>
         <div class="col-md-4">
@@ -146,13 +186,11 @@
         <div class="col-md-4">
           <div class="pricing-card text-center p-4 shadow-sm rounded bg-white h-100">
             <h5>Hamburguesa Gourmet</h5>
-            <p class="text-muted">Pan brioche artesanal, Pan brioche, carne de res 200g, queso cheddar, tocineta
-              crocante, hierbas frescas, tomate, cebolla caramelizada, salsa especial y papas fritas crujientes.</p>
+            <p class="text-muted">Pan brioche, carne de res 200g, cheddar, tocineta y salsa especial.</p>
             <h3 class="fw-bold text-warning">$23.000</h3>
           </div>
         </div>
 
-        <!-- Postres -->
         <div class="col-md-4">
           <div class="pricing-card text-center p-4 shadow-sm rounded bg-white h-100">
             <h5>Cheesecake Fresa</h5>
@@ -164,13 +202,13 @@
           <div class="pricing-card text-center p-4 shadow-sm rounded bg-white h-100">
             <h5>Tiramisú</h5>
             <p class="text-muted">Clásico italiano con café</p>
-            <h3 class="fw-bold text-warning">$11.000</h3>
+            <h3 class="fw-bold text-warning">$12.000</h3>
           </div>
         </div>
         <div class="col-md-4">
           <div class="pricing-card text-center p-4 shadow-sm rounded bg-white h-100">
-            <h5>Brownie con Helado</h5>
-            <p class="text-muted">Brownie tibio + helado de vainilla</p>
+            <h5>Pie de manzana</h5>
+            <p class="text-muted">Rebanada de postre casero con manzana frescas</p>
             <h3 class="fw-bold text-warning">$9.000</h3>
           </div>
         </div>
@@ -178,7 +216,130 @@
     </div>
   </section>
 
-  <!-- Reservas en Línea -->
+  <section id="promos-semana" class="container py-5">
+    <h2 class="text-center fw-bold mb-4">Promociones de la Semana</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered text-center promo-table">
+        <thead>
+          <tr>
+            <th>Día</th>
+            <th>Promoción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td>10% en Desayunos</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>2x1 en Capuchinos</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>Postre gratis por la compra de un almuerzo</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td>15% de descuento en pastas</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>2x1 en bebidas</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>Combo Familiar con descuento</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>Café gratis con cada desayuno especial</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section id="horarios" class="container py-5">
+    <h2 class="text-center fw-bold mb-4">Horarios de Atención</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered text-center horario-table">
+        <thead>
+          <tr>
+            <th>Día</th>
+            <th>Apertura</th>
+            <th>Cierre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td>7:00 a.m.</td>
+            <td>8:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Martes</td>
+            <td>7:00 a.m.</td>
+            <td>8:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Miércoles</td>
+            <td>7:00 a.m.</td>
+            <td>8:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Jueves</td>
+            <td>7:00 a.m.</td>
+            <td>9:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>7:00 a.m.</td>
+            <td>10:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>8:00 a.m.</td>
+            <td>10:00 p.m.</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>8:00 a.m.</td>
+            <td>6:00 p.m.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section style="padding: 40px 20px; background: #fdfbf7;">
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch; max-width: 1200px; margin: auto;">
+
+      <div
+        style="flex: 1 1 350px; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+        <h2 style="color: #a57b37; font-size: 1.4rem; margin-bottom: 15px;">LOCACION</h2>
+        <p style="font-weight: bold; margin: 5px 0;">JHOSTYN GOURMET</p>
+        <p style="margin: 5px 0;">Calle 7D #43C-36</p>
+        <p style="margin: 5px 0;">Locacion de Jhostyn Gourmet, El Poblado, Medellín</p>
+        <p style="margin: 10px 0;">
+          <strong>Email:</strong> Jhostyndavid44@gmail.com
+        </p>
+        <p style="margin: 5px 0;">
+          <strong>Tel:</strong> +57 310 583 0510
+        </p>
+      </div>
+
+      <div style="flex: 2 1 500px;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4131424709344!2d-75.5732386!3d6.2091132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428b7c008c217%3A0x1472a8e8325e2728!2sElcielo%20Restaurant%20Medell%C3%ADn!5e0!3m2!1ses-419!2sco!4v1758828321548!5m2!1ses-419!2sco"
+          width="100%" height="400" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+
+
   <section id="contacto" class="container py-5">
     <h2 class="text-center fw-bold mb-4">Reserva tu Mesa en Línea</h2>
     <p class="text-center text-muted mb-5">Completa el formulario y asegura tu lugar en nuestro café.</p>
@@ -190,7 +351,7 @@
         </div>
         <div class="col-md-6">
           <label for="correo" class="form-label">Correo</label>
-          <input type="email" id="correo" class="form-control" placeholder="ejemplo@mail.com" required>
+          <input type="email" id="correo" class="form-control" placeholder="ejemplo@gmail.com" required>
         </div>
         <div class="col-md-6">
           <label for="personas" class="form-label">Personas</label>
@@ -210,10 +371,9 @@
     </form>
   </section>
 
-  <!-- Footer -->
   <footer class="footer bg-dark text-white text-center py-4">
     <div class="container">
-      <img src="img/image.png" width="50" class="mb-2" alt="width: 100px">
+      <img src="img/image.png" height="70px" class="mb-2" alt="width: 100px">
       <p class="mb-1">&copy; 2025 Jhostyn Gourmet | Todos los derechos reservados.</p>
       <div class="d-flex justify-content-center gap-3">
         <a href="https://www.facebook.com/" class="text-white" aria-label="Facebook" target="_blank">
@@ -222,14 +382,12 @@
         <a href="https://www.instagram.com/" class="text-white" aria-label="Instagram" target="_blank">
           <i class="fab fa-instagram fa-lg"></i>
         </a>
-       <a href="https://www.X.com" class="text-white" aria-label="X" target="_blank">
-  <i class="fab fa-twitter fa-lg"></i>
-</a>
+        <a href="https://www.X.com" class="text-white" aria-label="X" target="_blank">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
       </div>
     </div>
   </footer>
-
-  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
